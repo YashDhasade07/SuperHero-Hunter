@@ -1,0 +1,52 @@
+/* superhero details section */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* color: white; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    /* align-items: center; */
+    background-color: #0d1117;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  
+  #superhero-details{
+    background-color: #fff;
+    height: 500px;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #sname{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    /* border-bottom: 3px solid #0d1117 ; */
+  }
+  
+  #s-details{
+    display: flex;
+    /* align-items: center; */
+    
+}
+#s-details img{
+    height: 454px;
+    width: 428px;
+    padding-right: 5px;
+}
+
+.bold{
+      font-weight: 600;
+    display: inline-block;
+  }
+  
